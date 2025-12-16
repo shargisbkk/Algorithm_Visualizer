@@ -1,5 +1,8 @@
-export type Step = {
-    data: any;
-    highlight?: AnyActionArg;
-    message?: String;
-};
+/**
+ * @typedef {Object} Step
+ * @property {*} data - The step data
+ * @property {AnyActionArg} [highlight] - Optional highlight
+ * @property {string} [message] - Optional message
+ */
+
+export { step };
